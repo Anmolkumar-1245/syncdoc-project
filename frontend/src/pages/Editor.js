@@ -3,7 +3,7 @@ import Quill from "quill";
 import { io } from "socket.io-client";
 import "quill/dist/quill.snow.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://syncdoc-backend-p5cg.onrender.com");
 
 function Editor() {
 
